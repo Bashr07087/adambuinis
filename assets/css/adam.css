@@ -1,0 +1,81 @@
+body {
+    font-family: Open Sans, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    header {
+    background-color: #032B44;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
+    .logo {
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+        background-image: url("images/log.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        }
+    img{
+        height: 180px;
+        width: 200px;
+        margin-bottom: 6px;
+        padding-left: 40px;
+        padding-bottom:200px;
+    }
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    }
+    nav li {
+    margin-right: 20px;
+    }
+    nav a {
+    color: #fff;
+    text-decoration: none;
+    }
+    section {
+    padding: 20px;
+    }
+    h1, h2 {
+    color: #032B44;
+    }
+    footer {
+    background-color: #032B44;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    }
+    .footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    .footer-links li {
+    margin-bottom: 10px;
+    }
+    .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    }
+    .footer-links a:hover {
+    color: #ccc;
+    }
+    .footer-copyright {
+    margin-top: 20px;
+    }
+    .my_img {
+        display: flex;          /* Makes children (images) align horizontally */
+        gap: 10px;              /* Adds space between images (adjust as needed) */
+        justify-content: center; /* Centers the images horizontally */
+        align-items: center;     /* Aligns the images vertically */
+      }
+      
+      .my_img img {
+        max-height: 344px;      /* Ensures images do not exceed the height */
+        width: auto;   
+      }
